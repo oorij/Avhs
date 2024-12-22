@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   line-height: 1.6;
   color: #ffffff;
   background: #545454;
@@ -47,10 +47,10 @@ section h2 {
   text-align: center;
 }
 
-section p {
+p {
   display: flex;
   flex-shrink: 0;
-  font-size: 1.5em;
+  font-size: 1em;
   margin-bottom: 10px;
   text-align: center;
 }
@@ -79,7 +79,7 @@ section.visible .image {
   }
 
   section p {
-    font-size: 1.2em;
+    font-size: 1em;
   }
 
   .image {
